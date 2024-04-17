@@ -32,7 +32,14 @@ public class main {
                     index = Integer.parseInt(sc.nextLine());
                     v.remove(list,index);
                     break;
-
+                case 4:
+                    System.out.println("Nhập phần tử sữa trong mảng: ");
+                    index = Integer.parseInt(sc.nextLine());
+                    v.edit(list,index);
+                    break;
+                case 5:
+                    System.out.println("danh sach gpa > 8:");
+                    v.gpamax(list);
 
             }
         }
